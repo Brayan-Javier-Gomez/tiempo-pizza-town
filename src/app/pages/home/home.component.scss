@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@300;400;800&display=swap');
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  padding-left: 50px;
+}
+
+.side {
+  flex: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  flex: 45%;
+  padding-left: 30px;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.content_logo {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.sidebar {
+  width: 30%;
+  background: rgba(255, 255, 255, 0.718);
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-right: 70px;
+  text-align: right;
+}
+
+header nav {
+  float: right;
+}
+
+header nav a {
+  display: inline-block;
+  color: #707070;
+  text-decoration: none;
+  padding: 10px 30px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header nav a:hover {
+  color: #fdb441;
+}
+
+.title {
+  font-size: 100px;
+  font-family: 'Montserrat', sans-serif;
+  color: #241600;
+  margin-bottom: 0;
+}
+
+.spaccing {
+  flex: 10%;
+  box-shadow: -41px 0px 38px #00000057;
+}
+
+.text_info {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+
+.container_text_info {
+  width: 65%;
+}
+
+.container_btn {
+  padding-top: 30px;
+  width: 65%;
+}
+
+.container_btn .btn {
+  text-align: center;
+}
+
+.container_btn .btn button {
+  background: #fdb441 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  padding: 20px 45px;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+footer {
+  color: #707070;
+  text-decoration: none;
+  padding: 30px 30px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 30px;
+  text-align: center;
+}
+
+footer nav a {
+  display: inline-block;
+  padding: 20px;
+}
+
+footer nav a img {
+  width: 25px;
+}
