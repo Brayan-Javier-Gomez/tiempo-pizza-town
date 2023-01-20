@@ -34,5 +34,5 @@ ng serve -o
 ## Api utilizadas 📖
 
 
-## Desarrolladora ✒️
+## Desarrollador ✒️
 * [Brayan Javier Gomez Garcia](https://www.linkedin.com/in/brayanjgomez/)
