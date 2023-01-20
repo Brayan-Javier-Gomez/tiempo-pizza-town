@@ -122,7 +122,6 @@ footer {
   bottom: 0%;
   color: #707070;
   text-decoration: none;
-  padding: 30px 30px;
   line-height: normal;
   font-size: 20px;
   font-weight: bold;
@@ -141,6 +140,8 @@ footer nav a img {
 }
 
 @media (max-width: 600px) {
+
+  .side {flex: 40%;}
   .title {
     font-size: 45px;
     font-family: "Montserrat", sans-serif;
@@ -231,6 +232,9 @@ footer nav a img {
 @media (max-width: 380px) {
   footer nav a {
     display: inline-block;
-    padding: 2px;
+    padding: 5px;
+  }
+  footer nav a img {
+    width: 20px;
   }
 }
