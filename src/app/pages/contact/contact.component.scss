@@ -109,6 +109,10 @@ header nav a:hover {
 }
 
 @media (max-width: 600px) {
+.contact{
+  padding: 10px;
+}
+
   .side, .spaccing, header {
     display: none;
   }
