@@ -1,28 +1,53 @@
-<div class="menu">
+<div class="row">
+  <aside class="side">
+    <div class="content_logo">
+      <div class="sidebar">
+        <div class="logo">
+          <img src="./assets/Grupo 1.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </aside>
 
-  <swiper
-    [effect]="'coverflow'"
-    [grabCursor]="true"
-    [centeredSlides]="true"
-    [slidesPerView]="'auto'"
-    [coverflowEffect]="{
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true
-    }"
-    [pagination]="true"
-    class="mySwiper"
-  >
-    <ng-template swiperSlide
-      ><img src="../../../assets/menu/menu1.png" /> </ng-template
-    ><ng-template swiperSlide
-      ><img src="../../../assets/menu/menu2.png" /> </ng-template
-    ><ng-template swiperSlide
-      ><img src="../../../assets/menu/menu3.png" /> </ng-template>
-  </swiper>
+  <div class="spaccing"></div>
 
-  <a class="menu__btn" href="../../../../assets/carta.pdf" download>
-   DOWNLOAD</a>
+  <section class="content">
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+        <a routerLink="/menu">Menu</a>
+        <a routerLink="/contact">Contact</a>
+      </nav>
+    </header>
+    <div class="menu">
+      <swiper
+        [effect]="'coverflow'"
+        [grabCursor]="true"
+        [centeredSlides]="true"
+        [slidesPerView]="'auto'"
+        [coverflowEffect]="{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true
+        }"
+        [pagination]="true"
+        class="mySwiper"
+      >
+        <ng-template swiperSlide
+          ><img src="../../../assets/menu/menu1.png" /> </ng-template
+        ><ng-template swiperSlide
+          ><img src="../../../assets/menu/menu2.png" /> </ng-template
+        ><ng-template swiperSlide
+          ><img src="../../../assets/menu/menu3.png" />
+        </ng-template>
+      </swiper>
+
+      <a class="menu__btn" href="../../../../assets/carta.pdf" download>
+        DOWNLOAD</a
+      >
+    </div>
+  </section>
 </div>
