@@ -25,12 +25,13 @@ Ejecutar en la *Consola* los siguientes comandos.
 npm -i
 ng serve -o
 
-
 ---
 ## Construido con 🛠️
 * [Swiper](https://swiperjs.com/)
 * JavaScript
-* Jquery
+* Angular
+* BEM
+* lottie files
 
 ## Desarrollador ✒️
 * [Brayan Javier Gomez Garcia](https://www.linkedin.com/in/brayanjgomez/)
