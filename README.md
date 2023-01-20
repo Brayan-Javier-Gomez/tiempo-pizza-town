@@ -32,6 +32,7 @@ ng serve -o
 * Angular
 * BEM
 * lottie files
+* Netlify
 
 ## Desarrollador ✒️
 * [Brayan Javier Gomez Garcia](https://www.linkedin.com/in/brayanjgomez/)
