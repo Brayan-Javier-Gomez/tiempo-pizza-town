@@ -116,6 +116,10 @@ header nav a:hover {
 }
 
 footer {
+  position: fixed;
+  z-index: 9;
+  right: 0;
+  bottom: 10%;
   color: #707070;
   text-decoration: none;
   padding: 30px 30px;
