@@ -1,7 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import SwiperCore, { Autoplay, Navigation, EffectCards, EffectCoverflow} from "swiper";
+import SwiperCore, { EffectCoverflow} from "swiper";
 
-SwiperCore.use([Autoplay, Navigation, EffectCards, EffectCoverflow]);
+SwiperCore.use([EffectCoverflow]);
 
 
 @Component({
