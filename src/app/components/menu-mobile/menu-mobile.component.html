@@ -1,0 +1,29 @@
+<ng-container *ngIf="isOpen">
+  <div class="menu__mobile__overlay" (click)="closeMenu()"></div>
+  <nav class="menu__mobile">
+    <div class="menu__mobile__container">
+      <div class="menu__mobile__button-back" (click)="closeMenu()"><</div>
+      <div class="menu__mobile__collapse">
+        <div
+          class="menu__collapse-item"
+          routerLink="/{{ item.url }}"
+          routerLinkActive
+          #rla="routerLinkActive"
+          [class.active]="rla.isActive"
+          *ngFor="let item of itemsMenu"
+          (click)="closeMenu()"
+        >
+          <img class="menu__collapse-image" [src]="item.image" alt="" />
+          <h6>{{ item.name }}</h6>
+          <div
+            class="menu__collapse-decorator {{
+              rla.isActive ? 'active' : null
+            }}"
+          >
+            <div class="menu__collapse-decorator-circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</ng-container>

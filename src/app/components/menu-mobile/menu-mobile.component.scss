@@ -1,0 +1,105 @@
+@import "../../../style/variables/colors.scss";
+@import "../../../style/tools/base-breakpoints.scss";
+@import "../../../style/animations/animations.scss";
+
+.menu__mobile {
+  background-color: $bg-primary;
+  border-radius: 0 1.25rem 1.25rem 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 17.5rem;
+  z-index: 3;
+
+  @include fadeInLeftBig;
+  &__overlay {
+    backdrop-filter: blur(3px);
+    background: rgb(50, 69, 82, 0.15);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+  }
+  &__container {
+    background-color: $bg-tertiary;
+    border-radius: 0 1.5rem 1.5rem 0;
+    height: 100%;
+    margin-right: 0.5rem;
+    padding: 2rem 0 2rem 1.2rem;
+  }
+  &__button-back {
+    align-items: center;
+    background-color: $bg-secondary;
+    border-radius: 0.625rem;
+    box-shadow: 2px 4px 7px 0px $color-box-shadow;
+    display: flex;
+    height: 2.5rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: 2.5rem;
+  }
+  &__collapse {
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 0 2.5rem 0;
+
+    .menu__collapse {
+      &-item {
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        margin-bottom: 0.5rem;
+        padding: 0 0 0.4rem;
+        position: relative;
+        margin-right: 1.2rem;
+      }
+      &-image {
+        height: 2rem;
+        margin-right: 0.5rem;
+        width: 2rem;
+      }
+      &-decorator {
+        margin-right: -1.2rem;
+        // background-color: $bg-primary;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        width: 1.2rem;
+        &.active {
+          background-color: $bg-primary;
+        }
+        .menu__collapse-decorator-circle {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          height: 100%;
+          width: 100%;
+          &::before {
+            content: "";
+            width: 100%;
+            height: 50%;
+            background: $bg-tertiary;
+            -moz-border-radius: 0 100% 0 0;
+            -webkit-border-radius: 0 100% 0 0;
+            border-radius: 0 0 100% 0;
+          }
+          &::after {
+            content: "";
+            width: 100%;
+            height: 50%;
+            background: $bg-tertiary;
+            -moz-border-radius: 0 100% 0 0;
+            -webkit-border-radius: 0 100% 0 0;
+            border-radius: 0 100% 0 0;
+          }
+        }
+      }
+    }
+  }
+}

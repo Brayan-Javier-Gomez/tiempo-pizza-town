@@ -1,0 +1,17 @@
+@import "../tools/base-breakpoints.scss";
+@import "../variables/colors.scss";
+
+h1, h2, h3, h4, h5, p {
+  font-family: 'Montserrat', sans-serif;
+
+} 
+
+h6 {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+  text-align: center;
+  text-transform: capitalize;
+}

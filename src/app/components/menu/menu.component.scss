@@ -1,0 +1,33 @@
+@import "../../../style/variables/colors.scss";
+@import "../../../style/tools/base-breakpoints.scss";
+.menu {
+  .menu__mobile {
+    @include for-phone-up {
+      display: none;
+    }
+    display: flex;
+    background-color: $bg-tertiary;
+    align-items: center;
+    border-bottom: 0.8px solid #99cccc;
+    padding-left: 24px;
+
+    &-menu {
+      width: 30px;
+    }
+    &-logo {
+      margin-left: 12px;
+      .logo-tablet {
+          display: block;
+          height: 45px;
+      }
+    }
+    &-tools {
+      padding: 12px;
+      margin-left: auto;
+      .menu__mobile-animation {
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+}
