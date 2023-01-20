@@ -205,18 +205,16 @@ footer nav a img {
   }
 
   footer nav a img {
-    width: 15px;
+    width: 20px;
   }
 
   footer {
     color: #707070;
     text-decoration: none;
-    padding: 10px 10px;
     line-height: normal;
     font-size: 20px;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
-    padding-right: 30px;
     text-align: center;
   }
 
@@ -233,6 +231,6 @@ footer nav a img {
 @media (max-width: 380px) {
   footer nav a {
     display: inline-block;
-    padding: 5px;
+    padding: 2px;
   }
 }
