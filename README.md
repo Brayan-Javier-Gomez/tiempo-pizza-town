@@ -1,11 +1,11 @@
 # Pagina Web Pizza Town
 
-## Demo en vivo
-[Pizza Town ](https://clinquant-horse-4200bf.netlify.app/home)
 
 Pagina web para realizar pedidos de pizza en Pizza Town
 _Esta pagina web permite realizar tus pedidos online de pizza a domicilio
 
+## Demo en vivo
+[Pizza Town ](https://clinquant-horse-4200bf.netlify.app/home)
 
 ## Comenzando 🚀
 
