@@ -6,12 +6,5 @@ import { Component } from "@angular/core";
   styleUrls: ["./home.component.scss"],
 })
 export class HomeComponent {
-  myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x!.className === "topnav") {
-      x!.className += " responsive";
-    } else {
-      x!.className = "topnav";
-    }
-  }
+
 }
