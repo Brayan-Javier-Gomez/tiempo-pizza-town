@@ -1,13 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@300;400;800&display=swap");
 
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  padding: 0;
-}
+//////////
+///
 
+.contact {
+  text-align: center;
+  &__animation{
+    width: 200px;
+    display: flex;
+    margin: auto;
+  }
+  &__btn {
+    background: #fdb441 0% 0% no-repeat padding-box;
+    border-radius: 28px;
+    padding: 20px 45px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 900;
+  }
+}
+////
 .row {
   display: flex;
   flex-wrap: nowrap;
@@ -74,38 +87,16 @@ header nav a:hover {
   color: #fdb441;
 }
 
-.title {
-  font-size: 100px;
-  font-family: "Montserrat", sans-serif;
-  color: #241600;
-  margin-bottom: 0;
-  margin-top: 40px;
-}
-
-.spaccing {
-  flex: 10%;
-  box-shadow: -41px 0px 38px #00000057;
-}
-
-.text_info {
-  font-family: "Montserrat", sans-serif;
-  font-size: 17px;
-}
-
-.container_text_info {
-  width: 65%;
-}
-
-.container_btn {
+.contact_btn {
   padding-top: 30px;
   width: 65%;
 }
 
-.container_btn .btn {
+.contact_btn .btn {
   text-align: center;
 }
 
-.container_btn .btn button {
+.contact_btn .btn button {
   background: #fdb441 0% 0% no-repeat padding-box;
   border-radius: 28px;
   padding: 20px 45px;
@@ -162,7 +153,7 @@ footer nav a img {
     height: 100vh;
   }
 
-  .container_btn .btn button {
+  .contact_btn .btn button {
     background: #fdb441 0% 0% no-repeat padding-box;
     border-radius: 28px;
     padding: 15px 15px;
@@ -172,7 +163,7 @@ footer nav a img {
     font-weight: 700;
   }
 
-  .container_btn {
+  .contact_btn {
     padding-top: 10px;
     width: 100%;
   }
