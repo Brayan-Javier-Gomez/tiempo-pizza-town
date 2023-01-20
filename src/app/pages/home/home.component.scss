@@ -11,7 +11,7 @@ body {
 .row {
   display: flex;
   flex-wrap: nowrap;
-  height: 100vh;
+  height: 99vh;
 }
 
 .side {
@@ -102,7 +102,7 @@ header nav a:hover {
 }
 
 .container_btn .btn {
-  text-align: center;
+  text-align: left;
 }
 
 .container_btn .btn button {
@@ -116,6 +116,10 @@ header nav a:hover {
 }
 
 footer {
+  position: fixed;
+  z-index: 9;
+  right: 50;
+  bottom: 0%;
   color: #707070;
   text-decoration: none;
   padding: 30px 30px;
@@ -219,6 +223,10 @@ footer nav a img {
   footer nav a {
     display: inline-block;
     padding: 9px;
+  }
+
+  .container_btn .btn {
+    text-align: center;
   }
 }
 
