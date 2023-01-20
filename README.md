@@ -27,7 +27,7 @@ ng serve -o
 
 ---
 ## Construido con 🛠️
-* [Swiper](https://swiperjs.com/)
+* Swiper
 * JavaScript
 * Angular
 * BEM
